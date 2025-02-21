@@ -5,9 +5,8 @@ import Nav from '../components/Nav/Nav';
 import Footer from '../components/Footer/Footer';
 
 export const metadata: Metadata = {
-  robots: "noindex, nofollow",
-  title: "Atkinson Art",
-  description: "Art Studio of Linda Atkinson",
+  title: "Julie Williams Web Developer",
+  description: "Web Devlopment Portfolio - Julie Williams",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
