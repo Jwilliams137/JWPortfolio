@@ -1,0 +1,9 @@
+{
+    "title": "Julie Williams Web Developer",
+    "pages": {
+      "about": { "label": "About", "href": "/about"},
+      "projects": {"label": "Projects", "href": "/projects" },      
+      "contact": { "label": "Contact", "href": "/contact" }
+    }
+  }
+  
