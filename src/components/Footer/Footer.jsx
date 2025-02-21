@@ -6,7 +6,7 @@ import styles from './Footer.module.css';
 import footerData from './footerData.json';
 
 const iconMapping = {
-  faFacebook: faGithub
+  faGithub: faGithub
 };
 
 function Footer() {

@@ -20,15 +20,16 @@ export async function POST(request) {
         email,
         message,
         _subject: 'New message from your website visitor',
-        _next: '/thank-you'
-      })
+        _next: 'http://localhost:3000/thank-you', // Local thank-you page redirect
+      }),
     });
 
     if (!res.ok) {
-      return NextResponse.json({ error: 'Formsubmit error' }, { status: 500 });
+      return NextResponse.json({ error: 'Form submit failed' }, { status: 500 });
     }
 
-    return NextResponse.redirect('/thank-you');
+    // If successful, redirect to the thank-you page
+    return NextResponse.redirect('http://localhost:3000/thank-you'); 
   } catch (error) {
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
