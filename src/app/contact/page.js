@@ -27,7 +27,7 @@ function page() {
           className={styles.textarea}
         ></textarea>
 
-        <input type="hidden" name="_next" value="https://atkinson-art.netlify.app/thank-you" className={styles.hidden} />
+        <input type="hidden" name="_next" value="/thank-you" className={styles.hidden} />
         <input type="hidden" name="_subject" value="New message from your website visitor" className={styles.hidden} />
         <input type="hidden" name="_honey" className={styles.hidden} />
 
